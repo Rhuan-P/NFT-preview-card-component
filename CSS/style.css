@@ -1,0 +1,77 @@
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 6.25%;
+}
+body {
+  display: grid;
+  place-content: center;
+  font-size: 15rem;
+  min-height: 100vh;
+  background-color:#0c1729;
+}
+main {
+  background-color: hsl(217, 54%, 11%);
+  flex: 1;
+  border-radius: 23px;
+  font-size: 18rem;
+  padding: 30rem;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 20rem;
+  border-radius: 10px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+}
+.equilibrium img {
+  margin: auto;
+  max-width: 400rem;
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.eth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rem solid;
+  padding-bottom: 15rem;
+}
+  
+
+.eth strong,
+span {
+  display: flex;
+  gap: 10rem;
+}
+
+.User_Avatar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-width: max-content;
+  gap: 15rem;
+}
+.User_Avatar picture {
+  max-width: 50rem;
+  border: 1rem solid;
+  border-radius: 50%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
