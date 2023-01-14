@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 * {
   margin: 0%;
@@ -21,12 +21,16 @@ main {
   border-radius: 23px;
   font-size: 18rem;
   padding: 30rem;
+  font-family: Outfit;
 }
+
+ 
 .card {
   background-color: hsl(216, 50%, 16%);
   padding: 20rem;
   border-radius: 10px;
-  color: aliceblue;
+  color:hsl(215, 51%, 70%);
+
   display: flex;
   flex-direction: column;
   gap: 15rem;
@@ -49,11 +53,18 @@ img {
   padding-bottom: 15rem;
 }
   
+h1, .User_Avatar strong{
+  color: aliceblue;
+  max-width: max-content;
+}
 
 .eth strong,
 span {
   display: flex;
   gap: 10rem;
+}
+.eth strong{
+  color:hsl(178, 100%, 50%);
 }
 
 .User_Avatar {
@@ -68,10 +79,34 @@ span {
   border: 1rem solid;
   border-radius: 50%;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+picture img:hover{
+  opacity: 0.5;
+}
+picture:hover{
+  border-radius:15px ;
+  margin: auto;
+max-width: 400rem;
+cursor: pointer;
+  background-image: url(/images/icon-view.svg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+
+background-color: hsl(178, 100%, 50%);
+}
+h1:hover{
+  cursor: pointer;
+  color:hsl(178, 100%, 50%);
+}
+.User_Avatar strong:hover{
+  cursor: pointer;
+  color:hsl(178, 100%, 50%);
 }
